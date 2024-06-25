@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My page</title>
+    <style>
+        body {
+            background-color: #8a2be2;
+            color: aqua;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        h3 {
+            font-size: 2em;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+        p {
+            font-size: 1.2em;
+            animation: text-blink 1.5s infinite;
+        }
+        @keyframes text-blink {
+            0% { opacity: 0; }
+            50% { opacity: 1; }
+            100% { opacity: 0; }
+        }
+    </style>
+</head>
+<body>
+    <h3>Welcome to Launchpad</h3>
+    <p>Explore a new universe of creativity and innovation</p>
+</body>
+</html>
